@@ -1,21 +1,6 @@
 # AI Model-Serving Platform (In Progress)
 
-An end-to-end AI model training and serving pipeline for the MNIST dataset using PyTorch and AWS SageMaker.
-
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Tech Stack](#tech-stack)
-- [Architecture Diagram](#architecture-diagram)
-- [Directory Structure](#directory-structure)
-- [Installation](#installation)
-- [Infrastructure Provisioning](#infrastructure-provisioning)
-- [Training & Packaging](#training--packaging)
-- [Deployment](#deployment)
-- [Inference](#inference)
-- [Sample Output](#sample-output)
-- [CI/CD (Planned)](#cicd-planned)
-- [Monitoring](#monitoring)
-- [Status & Roadmap](#status--roadmap)
+An end-to-end AI model training and serving pipeline using PyTorch and AWS SageMaker.
 
 ## Prerequisites
 - Python 3.8+ (tested on 3.12)
@@ -90,8 +75,8 @@ Sends the first MNIST test image to the live endpoint and prints the output logi
 ✅ Inference result: [0.00, 0.01, 0.90, 0.02, 0.03, 0.00, 0.00, 0.00, 0.00, 0.04]
 ```
 
-## CI/CD (Planned)
-I plan to add GitHub Actions to automate training, packaging, and deployment on merge.
+## CI/CD (In Progress)
+Adding GitHub Actions to automate training, packaging, and deployment on merge.
 
 ## Monitoring (In Progress)
 Implementing performance monitoring and logging using AWS CloudWatch
