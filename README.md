@@ -15,7 +15,6 @@ An end-to-end AI model training and serving pipeline for the MNIST dataset using
 - [Sample Output](#sample-output)
 - [CI/CD (Planned)](#cicd-planned)
 - [Monitoring](#monitoring)
-- [Contributing](#contributing)
 - [Status & Roadmap](#status--roadmap)
 
 ## Prerequisites
@@ -92,13 +91,10 @@ Sends the first MNIST test image to the live endpoint and prints the output logi
 ```
 
 ## CI/CD (Planned)
-We plan to add GitHub Actions to automate training, packaging, and deployment on merge.
+I plan to add GitHub Actions to automate training, packaging, and deployment on merge.
 
-## Monitoring
-Basic CloudWatch metrics and logs are enabled for the endpoint.
-
-## Contributing
-Please submit issues or PRs, following existing code style and practices.
+## Monitoring (In Progress)
+Implementing performance monitoring and logging using AWS CloudWatch
 
 ## Status & Roadmap
 - **Status**: In Progress
